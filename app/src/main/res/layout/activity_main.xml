@@ -1,0 +1,61 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logowilo"/>
+    <TextView
+        android:id="@+id/companyName"
+        android:text="@string/companyName"
+        style="@style/header"/>
+    <TextView
+        android:id="@+id/sloganLineOne"
+        android:layout_below="@+id/companyName"
+        android:text="@string/sloganLineOne"
+        style="@style/sloganLineOne"/>
+
+    <TextView
+        android:layout_below="@+id/sloganLineOne"
+        android:id="@+id/slogan2"
+        android:text="@string/sloganLineTwo"
+        style="@style/sloganLineTwo"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp">
+
+
+
+        <TextView
+            android:id="@+id/street"
+            android:text="@string/street"
+            style="@style/standardText"/>
+
+        <TextView
+            android:id="@+id/city"
+            android:text="@string/city"
+            style="@style/standardText"/>
+
+        <TextView
+            android:id="@+id/country"
+            android:text="@string/country"
+            style="@style/standardText"/>
+
+        <TextView
+            android:id="@+id/internetAdresse"
+            android:text="@string/internetAdresse"
+            style="@style/standardText"/>
+
+    </LinearLayout>
+</RelativeLayout>
+

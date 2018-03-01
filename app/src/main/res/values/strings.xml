@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="internetAdresse">www.wilo.com</string>
+    <string name="street">Nortkirchenstraße 100</string>
+    <string name="city">44263 Dortmund</string>
+    <string name="country">Germany</string>
+    <string name="companyName">WILO</string>
+    <string name="sloganLineOne">Now</string>
+    <string name="sloganLineTwo">Towards the future.</string>
+</resources>
